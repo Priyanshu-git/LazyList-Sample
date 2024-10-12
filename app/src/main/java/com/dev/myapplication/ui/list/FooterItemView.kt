@@ -47,7 +47,7 @@ fun FooterItemView(listState: LazyListState) {
         )
         Spacer(modifier = Modifier.width(8.dp))
         Icon(
-            imageVector = ImageVector.vectorResource(id = R.drawable.baseline_keyboard_arrow_up_24), // Replace with your own icon
+            imageVector = ImageVector.vectorResource(id = R.drawable.baseline_keyboard_arrow_up_24),
             contentDescription = "Scroll to top",
         )
     }
